@@ -8,7 +8,7 @@ st.write("""
 This app predicts the **Iris flower** type!
 """)
 
-image = Image.open('iris%20image.png')
+image = Image.open('iris_image.png')
 st.image(image,'Iris Virginica Species')
 
 st.sidebar.header('User Input Parameters')
