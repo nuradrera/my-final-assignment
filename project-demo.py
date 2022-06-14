@@ -14,7 +14,7 @@ This app predicts the **Iris flower** type!
 from PIL import Image
 image = Image.open('iris_image.png')
 
-st.image(image, caption='Sunrise by the mountains')
+st.image(image, caption='**Iris Virginica Species**')
 
 st.sidebar.header('User Input Parameters')
 
