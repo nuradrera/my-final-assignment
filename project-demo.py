@@ -32,7 +32,7 @@ def user_input_features():
 df = user_input_features()
 
 st.subheader('User Input parameters')
-st.write(df.T)
+st.write(df)
 
 iris = pd.read_csv('https://raw.githubusercontent.com/nuradrera/my-final-assignment/main/IRIS.csv')
 X = iris[['sepal_length','sepal_width','petal_length','petal_width']]
